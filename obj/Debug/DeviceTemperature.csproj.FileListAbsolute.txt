@@ -1,0 +1,18 @@
+c:\users\bill-te\documents\visual studio 2015\Projects\DeviceTemperature\DeviceTemperature\bin\Debug\DeviceTemperature.exe.config
+c:\users\bill-te\documents\visual studio 2015\Projects\DeviceTemperature\DeviceTemperature\obj\Debug\DeviceTemperature.Temperature.resources
+c:\users\bill-te\documents\visual studio 2015\Projects\DeviceTemperature\DeviceTemperature\obj\Debug\DeviceTemperature.Properties.Resources.resources
+c:\users\bill-te\documents\visual studio 2015\Projects\DeviceTemperature\DeviceTemperature\obj\Debug\DeviceTemperature.csproj.GenerateResource.Cache
+c:\users\bill-te\documents\visual studio 2015\Projects\DeviceTemperature\DeviceTemperature\bin\Debug\DeviceTemperature.exe
+c:\users\bill-te\documents\visual studio 2015\Projects\DeviceTemperature\DeviceTemperature\bin\Debug\DeviceTemperature.pdb
+c:\users\bill-te\documents\visual studio 2015\Projects\DeviceTemperature\DeviceTemperature\obj\Debug\DeviceTemperature.exe
+c:\users\bill-te\documents\visual studio 2015\Projects\DeviceTemperature\DeviceTemperature\obj\Debug\DeviceTemperature.pdb
+c:\users\bill-te\documents\visual studio 2015\Projects\DeviceTemperature\DeviceTemperature\obj\Debug\DeviceTemperature.csprojResolveAssemblyReference.cache
+C:\Users\Bill.Chen\Desktop\DeviceTemperature\DeviceTemperature\bin\Debug\DeviceTemperature.exe.config
+C:\Users\Bill.Chen\Desktop\DeviceTemperature\DeviceTemperature\obj\Debug\DeviceTemperature.exe
+C:\Users\Bill.Chen\Desktop\DeviceTemperature\DeviceTemperature\obj\Debug\DeviceTemperature.pdb
+C:\Users\Bill.Chen\Desktop\DeviceTemperature\DeviceTemperature\bin\Debug\DeviceTemperature.exe
+C:\Users\Bill.Chen\Desktop\DeviceTemperature\DeviceTemperature\bin\Debug\DeviceTemperature.pdb
+C:\Users\Bill.Chen\Desktop\DeviceTemperature\DeviceTemperature\obj\Debug\DeviceTemperature.csprojResolveAssemblyReference.cache
+C:\Users\Bill.Chen\Desktop\DeviceTemperature\DeviceTemperature\obj\Debug\DeviceTemperature.Temperature.resources
+C:\Users\Bill.Chen\Desktop\DeviceTemperature\DeviceTemperature\obj\Debug\DeviceTemperature.Properties.Resources.resources
+C:\Users\Bill.Chen\Desktop\DeviceTemperature\DeviceTemperature\obj\Debug\DeviceTemperature.csproj.GenerateResource.Cache
