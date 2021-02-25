@@ -76,12 +76,13 @@ namespace DeviceTemperature {
         }
 
         private void getPCbtn_Click(object sender, EventArgs e) {
-            PCinfoModel thisPC = scan.getPcInfo();
 
-            string fileName = Interaction.InputBox("請輸入你的中文姓名與英文名子", "輸入名稱", "帥哥-FBI");
-            fileName += "-" + DateTime.Now.ToString("yyyyMMdd") + ".txt";
 
             try {
+            PCinfoModel thisPC = scan.getPcInfo();
+
+                string fileName = Interaction.InputBox("請輸入你的中文姓名與英文名子", "輸入名稱", "帥哥-FBI");
+            fileName += "-" + DateTime.Now.ToString("yyyyMMdd") + ".txt";
 
 
                 using (System.IO.StreamWriter file = new System.IO.StreamWriter(@"C:\" + fileName)) {
@@ -118,6 +119,14 @@ namespace DeviceTemperature {
             } catch (Exception ex) {
 
                 System.Diagnostics.Trace.Assert(false, ex.ToString());
+                string debugTxetPath =  "C:\\getPCbtn_ClickDebug.txt";
+                using (TextWriterTraceListener _DebugLog = new TextWriterTraceListener(debugTxetPath)) {
+                    Trace.Listeners.Add(_DebugLog);
+                    Trace.AutoFlush = true;
+                    Trace.WriteLine("Button Area error:" + ex.StackTrace.ToString());
+                    Trace.Listeners.Clear();
+                    Trace.Close();
+                }
             }
 
             MessageBox.Show("Thank you! I got you!", "U R the best");

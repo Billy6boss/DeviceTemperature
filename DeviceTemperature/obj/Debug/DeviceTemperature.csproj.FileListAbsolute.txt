@@ -16,3 +16,12 @@ C:\Users\Bill.Chen\Desktop\DeviceTemperature\DeviceTemperature\obj\Debug\DeviceT
 C:\Users\Bill.Chen\Desktop\DeviceTemperature\DeviceTemperature\obj\Debug\DeviceTemperature.Temperature.resources
 C:\Users\Bill.Chen\Desktop\DeviceTemperature\DeviceTemperature\obj\Debug\DeviceTemperature.Properties.Resources.resources
 C:\Users\Bill.Chen\Desktop\DeviceTemperature\DeviceTemperature\obj\Debug\DeviceTemperature.csproj.GenerateResource.Cache
+E:\DeviceTemperature\DeviceTemperature\bin\Debug\DeviceTemperature.exe.config
+E:\DeviceTemperature\DeviceTemperature\obj\Debug\DeviceTemperature.exe
+E:\DeviceTemperature\DeviceTemperature\obj\Debug\DeviceTemperature.pdb
+E:\DeviceTemperature\DeviceTemperature\bin\Debug\DeviceTemperature.exe
+E:\DeviceTemperature\DeviceTemperature\bin\Debug\DeviceTemperature.pdb
+E:\DeviceTemperature\DeviceTemperature\obj\Debug\DeviceTemperature.csprojResolveAssemblyReference.cache
+E:\DeviceTemperature\DeviceTemperature\obj\Debug\DeviceTemperature.Temperature.resources
+E:\DeviceTemperature\DeviceTemperature\obj\Debug\DeviceTemperature.Properties.Resources.resources
+E:\DeviceTemperature\DeviceTemperature\obj\Debug\DeviceTemperature.csproj.GenerateResource.Cache
