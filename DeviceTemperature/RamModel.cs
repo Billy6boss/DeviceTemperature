@@ -52,7 +52,13 @@ namespace DeviceTemperature {
 
         public void getTypeBySpeed(RamModel thisRam) {
 
-            int clockSpeed = int.Parse(thisRam.speed.Remove(4));
+            int clockSpeed;
+
+            if(thisRam.speed.Length > 5) {
+                clockSpeed = Convert.ToInt32(thisRam.speed.Remove(4));
+            } else {
+                clockSpeed = 0;   
+            }
 
             if (clockSpeed <= 1066)
                 thisRam.type = 21;

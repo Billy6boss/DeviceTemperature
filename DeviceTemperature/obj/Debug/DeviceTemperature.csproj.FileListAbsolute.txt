@@ -25,3 +25,4 @@ E:\DeviceTemperature\DeviceTemperature\obj\Debug\DeviceTemperature.csprojResolve
 E:\DeviceTemperature\DeviceTemperature\obj\Debug\DeviceTemperature.Temperature.resources
 E:\DeviceTemperature\DeviceTemperature\obj\Debug\DeviceTemperature.Properties.Resources.resources
 E:\DeviceTemperature\DeviceTemperature\obj\Debug\DeviceTemperature.csproj.GenerateResource.Cache
+E:\DeviceTemperature\DeviceTemperature\obj\Debug\DeviceTemperature.csproj.ResolveComReference.cache

@@ -30,6 +30,7 @@
             this.smartUpdatetick = new System.Windows.Forms.Timer(this.components);
             this.AirflowTemp = new System.Windows.Forms.Label();
             this.getPCbtn = new System.Windows.Forms.Button();
+            this.converBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // comboBox1
@@ -49,7 +50,7 @@
             this.temperatureText.Dock = System.Windows.Forms.DockStyle.Right;
             this.temperatureText.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.temperatureText.ForeColor = System.Drawing.Color.BlueViolet;
-            this.temperatureText.Location = new System.Drawing.Point(379, 0);
+            this.temperatureText.Location = new System.Drawing.Point(366, 0);
             this.temperatureText.Margin = new System.Windows.Forms.Padding(10, 0, 3, 0);
             this.temperatureText.Name = "temperatureText";
             this.temperatureText.Size = new System.Drawing.Size(66, 39);
@@ -67,7 +68,7 @@
             this.AirflowTemp.Dock = System.Windows.Forms.DockStyle.Right;
             this.AirflowTemp.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.AirflowTemp.ForeColor = System.Drawing.Color.Crimson;
-            this.AirflowTemp.Location = new System.Drawing.Point(313, 0);
+            this.AirflowTemp.Location = new System.Drawing.Point(300, 0);
             this.AirflowTemp.Margin = new System.Windows.Forms.Padding(10, 0, 3, 0);
             this.AirflowTemp.Name = "AirflowTemp";
             this.AirflowTemp.Size = new System.Drawing.Size(66, 39);
@@ -87,11 +88,22 @@
             this.getPCbtn.UseVisualStyleBackColor = true;
             this.getPCbtn.Click += new System.EventHandler(this.getPCbtn_Click);
             // 
+            // converBtn
+            // 
+            this.converBtn.Location = new System.Drawing.Point(175, 99);
+            this.converBtn.Name = "converBtn";
+            this.converBtn.Size = new System.Drawing.Size(75, 23);
+            this.converBtn.TabIndex = 5;
+            this.converBtn.Text = "Conver!";
+            this.converBtn.UseVisualStyleBackColor = true;
+            this.converBtn.Click += new System.EventHandler(this.converBtn_Click);
+            // 
             // Temperature
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(445, 94);
+            this.ClientSize = new System.Drawing.Size(432, 127);
+            this.Controls.Add(this.converBtn);
             this.Controls.Add(this.getPCbtn);
             this.Controls.Add(this.AirflowTemp);
             this.Controls.Add(this.temperatureText);
@@ -112,6 +124,7 @@
         private System.Windows.Forms.Timer smartUpdatetick;
         private System.Windows.Forms.Label AirflowTemp;
         private System.Windows.Forms.Button getPCbtn;
+        private System.Windows.Forms.Button converBtn;
     }
 }
 

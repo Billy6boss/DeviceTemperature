@@ -294,7 +294,12 @@ namespace DeviceTemperature {
                 } else {
                     foreach (var OS in new ManagementObjectSearcher(@"Select * From Win32_OperatingSystem").Get()) {
 
-                        thisPC.os = Convert.ToString(OS["Name"]).Split('|')[0] + " " + Convert.ToString(OS["OSArchitecture"]) + " ";
+                        if(String.IsNullOrEmpty(Convert.ToString(OS["Name"])) || Convert.ToString(OS["Name"]).Split().Length < 1) {
+                            thisPC.os = Convert.ToString(OS["Name"]) + " " + Convert.ToString(OS["OSArchitecture"]) + " ";
+                        } else {
+                            thisPC.os = Convert.ToString(OS["Name"]).Split('|')[0] + " " + Convert.ToString(OS["OSArchitecture"]) + " ";
+                        }
+
 
                         string version = "";
 
